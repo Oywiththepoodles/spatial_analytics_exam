@@ -19,9 +19,8 @@ The resposity is structed as depicted below:
 ### Usage and Technicalities <br>
 To reproduce the results of this project, the user is advised to clone the repository. This is done by executing the following from the command line: 
 
-CHANGE THIS WHEN TITLE IS DETERMINED
 ```
-$ git clone https://github.com/Oywiththepoodles/spatial_analytics.git
+$ git clone https://github.com/Oywiththepoodles/spatial_analytics_exam.git
 ```
 
 Once the repository has been cloned, the user is able to run the script provided in the ```src```folder. 
