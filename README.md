@@ -9,15 +9,13 @@ The aim of this project was to conduct a spatial analysis of the prevalence of P
 The resposity is structed as depicted below:
 | Folder | Files | Description |
 |--------|:------|:------------|
-| ```data``` | ```data.zip```| A folder containing the data needed to perform the analyses. |
-| ```src``` | ```script_1.rmd/html```<br>```script_2.rmd/html```<br>```script_3.rmd/html``` | A folder containing knitted scripts in a html-format as well as the raw scripts in Rmarkdown format. |
-| ```LICENSE```|        | A file declaring the license type of the repository. |
+| ```data``` | ```Farming_municipalities_km2.xlsx```<br>```SJI-data_planperiode 2010-2011_2024-04 12_SMALL.xlsx```<br>```age_distribution_absolute.xlsx```<br>```age_group_national_level.xlsx```<br>```citynames_municipalities.xlsx```<br>```gadm36_DNK_2_sp.rds```<br>```municipality_area_2011.xlsx```<br>```parkinson_data_with_age_of_diagnosis.xlsx```<br>```people_in_the_municipality_2010_to_2023.xlsx```<br>| A folder containing all the data needed to perform the analyses. |
+| ```src``` | ```script.rmd```<br>```script.html``` | A folder containing  the script for the analysis, both in a knitted format (HTML) and as an Rmarkdown file. |
 
-Everything needed to reproduce the analysis is provided, the necessary data is provided in a zip-file in the ```data``` folder and the code for generating the analysis can be found in the ```src```  folder which contains X scripts, both as rmarkdown-files as well as knitted HTML versions: <br>
+Everything needed to reproduce the analysis is provided, the necessary data is provided in the ```data``` folder and the code for generating the analysis can be found in the ```src```  folder which contains 2 files, one HTML file contaiing the knitted script and one Rmarkdown file containing the script. <br>
 
-- ```Script_1```: explanation of what happens in the script <br>
-- ```Script_2```:  explanation of what happens in the sciript <br>
-- ```Script_3```: explanation of what happens in the sciript
+- ```Script.rmd```: the script in Rmarkdown format <br>
+- ```Script.html```:  the script in HTML format
 
 
 ### Usage and Technicalities <br>
@@ -28,22 +26,7 @@ CHANGE THIS WHEN TITLE IS DETERMINED
 $ git clone https://github.com/Oywiththepoodles/spatial_analytics.git
 ```
 
-Once the repository has been cloned, the user is able to run the scripts provided in the ```src```folder. The scripts should be run in the following sequence as they depend on the previous scripts: <br>
-  1) Script_1 <br>
-  2) Script_2 <br>
-  3) Script_3 <br>
-
-The data is provided in single zip-file to avoid it taking up unnessesary amounts of storage. To unzip the data, execute the following commands from the command line:
-
-UPDATE THIS WHEN DATA HAS BEEN ADDED
-```
-cd spatial_analytics/data
-
-unzip spatial_data.csv.zip
-```
-
-### License <br>
-This project is licensed under the MIT License - see the [LICENSE](https://github.com/sofieditmer/SpatialAnalyticsExamProject/blob/main/LICENSE) file for details.
+Once the repository has been cloned, the user is able to run the script provided in the ```src```folder. 
 
 ### Contact Details <br>
 If you have any questions feel free to contact us on: <br> 
