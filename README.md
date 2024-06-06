@@ -11,10 +11,10 @@ Everything needed to reproduce the analysis is provided, the necessary data is p
 The resposity is structed as depicted below:
 | Folder | Files | Description |
 |--------|:------|:------------|
-| ```data``` | ```Age_distribution_municipalities.xlsx```<br>```Farming_municipalities_km2.xlsx```<br>```SJI-data_planperiode 2010-2011_2024-04 12_SMALL.xlsx```<br>```age_distribution_absolute.xlsx```<br>```age_group_national_level.xlsx```<br>```citynames_municipalities.xlsx```<br>```gadm36_DNK_2_sp.rds```<br>```municipality_area_2011.xlsx```<br>```parkinson_data_with_age_of_diagnosis.xlsx```<br>```people_in_the_municipality_2010_to_2023.xlsx```<br>```population_per_municipality.xlsx``` | A folder containing all the data needed to perform the analyses. |
-| ```src``` | ```script.rmd```<br>```script.html``` | A folder containing  the script for the analysis, both in a knitted format (HTML) and as an Rmarkdown file. |
+| ```data``` | ```age_distribution_absolute.xlsx```<br>```age_distribution_municipalities.xlsx```<br>```age_group_national_level.xlsx```<br>```citynames_municipalities.xlsx```<br>```farming_municipalities_km2.xlsx```<br>```gadm36_DNK_2_sp.rds```<br>```municipality_area_2011.xlsx```<br>```parkinson_data_with_age_of_diagnosis.xlsx```<br>```people_in_the_municipality_2010_to_2023.xlsx```<br>```pesticides_data.xlsx```<br>```population_per_municipality.xlsx``` | A folder containing all the data needed to perform the analyses. |
+| ```src``` | ```Spatial_Data_Analysis.Rmd```<br>```Spatial_Data_Analysis.html``` | A folder containing  the script for the analysis, both in a knitted format (HTML) and as an Rmarkdown file. |
 
-*Note*: the file ```SJI-data_planperiode 2010-2011_2024-04 12_SMALL.xlsx``` does not contain all the data provided from Miljøstyrelsen, as filesize restrictions will not allows for that to be uploaded, however it contain all data necessary for running the script. Should the full dataset be of interest, there is full right of access to it, and it can be aquired by contacting Miljøstyrelsen via: info@mst.com.
+*Note*: the file ```pesticides_data.xlsx``` does not contain all the data provided from Miljøstyrelsen, as filesize restrictions will not allows for that to be uploaded, however it contain all data necessary for running the script. Should the full dataset be of interest, there is full right of access to it, and it can be aquired by contacting Miljøstyrelsen via: info@mst.com.
 
 ### Usage and Technicalities <br>
 To reproduce the results of this project, the user is advised to clone the repository. This is done by executing the following from the command line: 
