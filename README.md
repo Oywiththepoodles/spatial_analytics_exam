@@ -6,17 +6,15 @@ The aim of this project was to conduct a spatial analysis of the prevalence of P
 
 
 ### Content and Repository Structure <br>
+Everything needed to reproduce the analysis is provided, the necessary data is provided in the ```data``` folder and the code for generating the analysis can be found in the ```src```  folder which contains 2 files, one HTML file containing the knitted script and one Rmarkdown file containing the script. <br>
+
 The resposity is structed as depicted below:
 | Folder | Files | Description |
 |--------|:------|:------------|
 | ```data``` | ```Farming_municipalities_km2.xlsx```<br>```SJI-data_planperiode 2010-2011_2024-04 12_SMALL.xlsx```<br>```age_distribution_absolute.xlsx```<br>```age_group_national_level.xlsx```<br>```citynames_municipalities.xlsx```<br>```gadm36_DNK_2_sp.rds```<br>```municipality_area_2011.xlsx```<br>```parkinson_data_with_age_of_diagnosis.xlsx```<br>```people_in_the_municipality_2010_to_2023.xlsx```<br>| A folder containing all the data needed to perform the analyses. |
 | ```src``` | ```script.rmd```<br>```script.html``` | A folder containing  the script for the analysis, both in a knitted format (HTML) and as an Rmarkdown file. |
 
-Everything needed to reproduce the analysis is provided, the necessary data is provided in the ```data``` folder and the code for generating the analysis can be found in the ```src```  folder which contains 2 files, one HTML file contaiing the knitted script and one Rmarkdown file containing the script. <br>
-
-- ```Script.rmd```: the script in Rmarkdown format <br>
-- ```Script.html```:  the script in HTML format
-
+*Note*: the file ```SJI-data_planperiode 2010-2011_2024-04 12_SMALL.xlsx``` does not contain all the data provided from Miljøstyrelsen, as filesize restrictions will not allows for that to be uploaded, however it contain all data necessary for running the script. Should the full dataset be of interest, there is full right of access to it, and it can be aquired by contacting Miljøstyrelsen via: info@mst.com.
 
 ### Usage and Technicalities <br>
 To reproduce the results of this project, the user is advised to clone the repository. This is done by executing the following from the command line: 
