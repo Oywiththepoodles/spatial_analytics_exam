@@ -1,4 +1,4 @@
-# Title: PD & Pesticides
+# Exploring the Proposed Pesticide-Parkinson’s Disease Link in Danish Municipalities
 
 ### Project Description <br>
 This repository contains the contents of the final exam project in the Spatial Analytics course at Aarhus University conducted in the spring of 2024, as well as all resources and materials needed in order to recreate the contents of the project. <br>
